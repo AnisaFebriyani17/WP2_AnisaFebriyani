@@ -1,6 +1,7 @@
 <?php
 class Matakuliah extends CI_Controller
 {
+    
     public function index()
     {
         $this->load->view('view-form-matakuliah');
@@ -29,4 +30,4 @@ class Matakuliah extends CI_Controller
             $this->load->view('view-data-matakuliah', $data);
         }
     }
-}
+   }
